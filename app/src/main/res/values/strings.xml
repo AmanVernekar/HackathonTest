@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Firebase UI</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="lostOrFoundQuestion">Have you lost your child or found a lost child?</string>
 </resources>
