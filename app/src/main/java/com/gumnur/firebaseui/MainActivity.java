@@ -40,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
     //Code For Lost People
     private void Lost(Bitmap lostImage, Kairos kairos1, KairosListener KL) throws UnsupportedEncodingException, JSONException {
         Bitmap image = lostImage;
-        String subjectId = "People Lost";
+
+
+
+        String subjectId = "1";
         String galleryId = "mom";
         String selector = "FULL";
         String multipleFaces = "false";
