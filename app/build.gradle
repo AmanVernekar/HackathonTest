@@ -35,5 +35,7 @@ dependencies {
     compile 'com.firebaseui:firebase-ui:0.4.4'
     compile 'com.google.android.gms:play-services-auth:11.0.2'
     testCompile 'junit:junit:4.12'
+
+    compile project(':Kairos')
 }
 apply plugin: 'com.google.gms.google-services'

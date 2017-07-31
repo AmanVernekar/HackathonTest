@@ -50,6 +50,10 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener{
 
         }
     }
+    public void MainActivity(View view){
+        Intent newActivity = new Intent(this, MainActivity.class);
+        startActivity(newActivity);
+    }
 
     @Override
     public void onClick(View view) {
@@ -64,10 +68,5 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener{
                         }
                     });
         }
-    }
-
-    public void MainActivity(View view){
-        Intent newActivity = new Intent(this, MainActivity.class);
-        startActivity(newActivity);
     }
 }
